@@ -8,13 +8,12 @@
 
 ## Screenshots / 截图
 
-![Settings page](assets/screenshot-settings.png)
 _Settings → 插件版本恢复：查看当前已安装插件、生成快照、浏览历史快照、上传恢复。_
 
-![Snapshot created](assets/screenshot-snapshot.png)
+
 _快照生成完成：JSON + 人读 TXT + 离线 PowerShell 恢复脚本，全部保存在一个文件夹里。_
 
-![Restore preview](assets/screenshot-restore.png)
+
 _恢复预览：逐条确认差异（新增 / 更新 / 移除），支持勾选部分插件或一键全部恢复。_
 
 ## Features / 功能
