@@ -1,0 +1,9 @@
+node_modules/
+.pnpm/
+*.log
+.DS_Store
+.git/
+.github/
+.vscode/
+.idea/
+*.tgz
