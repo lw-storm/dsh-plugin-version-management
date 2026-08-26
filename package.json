@@ -5,6 +5,15 @@
   "type": "module",
   "main": "lib/index.js",
   "license": "MIT",
+  "author": "lw-storm",
+  "homepage": "https://github.com/lw-storm/dsh-plugin-version-management#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lw-storm/dsh-plugin-version-management.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lw-storm/dsh-plugin-version-management/issues"
+  },
   "keywords": [
     "deepseek",
     "harness",
@@ -13,8 +22,12 @@
     "backup",
     "restore",
     "snapshot",
-    "version-management"
+    "version-management",
+    "plugin-manager"
   ],
+  "engines": {
+    "node": ">=18"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
@@ -40,7 +53,8 @@
   "files": [
     "lib",
     "client",
-    "cordis.patch.yml"
+    "cordis.patch.yml",
+    "screenshots.json"
   ],
   "peerDependencies": {
     "@deepseek-ai/cordis": "^4.0.1"
